@@ -1,6 +1,7 @@
 package vendinMachine;
 import java.util.Scanner;
-
+// code by Ishwar Dharme
+//ishwardharme320@gmail.com
 public class VendingMachine {
     private int teaLeavesStock;
     private int coffeePowderStock;
