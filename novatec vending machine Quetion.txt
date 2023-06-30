@@ -1,0 +1,169 @@
+  Write down the program for the following problem: Tea/Coffee vending machine.
+
+Description: Assumptions
+
+1. Vending machine has 5 containers which contain: Milk, Water, tea leaves, coffee powder and sugar 
+2. Coffee and tea both require a fixed amount of the above ingredients.
+3. User can opt for:
+    Strong Coffee
+    Light Coffee 
+    Strong Tea
+    Light Tea
+
+4. For each beverage user can choose with or without sugar.
+5. Allow user to dispense multiple cup for each serving.
+6. Each of these would require varying quantities of sugar, coffee powder, Tea leaves, etc.
+7. As the Vending machine dispenses tea or coffee to each user, the stock for raw materials goes on reducing.
+
+Total capacity of the machine for Raw materials is:
+Particular : Tea leaves
+Capacity of the machine : 500 units.(cut off limit: 50 Units) 
+Cost price per unit : Rs.1
+
+Particular : Coffee Powder
+Capacity of the machine : 500 units.(cut off limit: 50 Units) 
+Cost price per unit :Rs.2
+
+Particular : Sugar
+Capacity of the machine : 600 units.(cut off limit: 50 Units) 
+Cost price per unit : Rs.1.5
+
+Particular : milk
+Capacity of the machine : 8000 units.(cut off limit: 400 Units) 
+Cost price per unit :Rs.0.15
+
+Particular : water
+Capacity of the machine : 15000 units.(cut off limit: 600 Units) 
+Cost price per unit : Rs.0.02
+
+
+Raw material required for each serving is given below:
+Item : Strong Coffee
+Sugar : 2
+Milk : 50
+Coffee Powder : 4
+Tea Leaves : 0
+Water : 100
+Selling Price per Unit : Rs.17.5
+
+Item : light Coffee
+Sugar : 1.5
+Milk : 60
+Coffee Powder : 2
+Tea Leaves : 0
+Water : 100
+Selling Price per Unit : Rs.16.5
+
+Item : Strong Tea
+Sugar : 2
+Milk : 30
+Coffee Powder : 0
+Tea Leaves : 4
+Water : 150
+Selling Price per Unit : Rs.15.50
+
+Item : Light tea
+Sugar : 1.5
+Milk : 40
+Coffee Powder : 0
+Tea Leaves : 3
+Water : 150
+Selling Price per Unit : Rs.15
+
+
+
+
+ For every 200 units of milk served, loss of 10 units of milk is incurred due to leakage. 
+ For every 500 units of water served, loss of 25 units of water is incurred due to leakage.
+
+The Application Should:
+
+1. Dispense tea and coffee according to the options selected by the user
+
+-Corresponding stock of raw materials should decrease and should be displayed to the User
+
+2. Allow user to dispense multiple cup for each serving
+
+3. When the stock goes below a fixed cut-off value, warning should be raised, to indicate that a stock refill should be done - Machine should allow to dispense the beverage, if possible, even after reaching cut-off
+
+4. Have an option of re-filling stock. User can refill the stock any time
+
+- Allow the user to set the refill quantity
+5. Should report at the time of closing, how much stock(In Units) of each raw material was used, and how much is there in the machine
+
+6. How many cups of tea and coffee were sold/dispensed at the time of closing
+
+7. What is the profit/loss for the day
+
+8. How many units of milk and water is lost because of leakage
+
+9. Leakage should be compensated while serving the beverage
+
+Evaluation Criteria :
+ Requirements - Requirements fulfillment up to report generation
+
+Logic Logic - used while solving problem
+
+Validation - Proper validation with input parameters
+
+
+Points for executing vending machine
+
+1. No UI application should be Console base 2. Exit from Application only if Exit menu is selected
+
+3. Refer evaluation criteria given in the problem statement 4. Application should be menu driven as shown below.
+
+Select an option to process
+
+1. Dispense beverage 
+
+2. Refill Containers
+
+3. Show Report
+
+4. Exit
+
+Enter Option no.:
+
+For 1. Dispense beverage Select a beverage
+
+Light Coffee
+
+Strong Coffee 
+
+Light Tea
+
+Strong Tea
+
+Enter beverage :
+
+No of cups:
+
+with sugar:
+
+For 2. Refill Containers Select a ingradient
+
+water (w)
+
+Milk
+
+tea
+
+Coffee
+
+Sugar
+
+Enter Ingradient : No of units:
+
+For 3. Show Report Remaining Qty of each ingradient :
+
+Used Qty of each ingradient : Loss due to leakage of water:
+
+Loss due to leakage of milk: No of cups sold of each beverage:
+
+Total Cost amount:
+
+Total Sale amount : Profit Loss:
+
+for 4. exit.
+
